@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Repository
-@PropertySource("classpath:application.properties")
 public class ModelRepositoryImpl implements ModelRepository {
     private final Environment environment;
 
